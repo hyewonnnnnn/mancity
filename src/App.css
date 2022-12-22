@@ -1,6 +1,8 @@
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +38,47 @@
     transform: rotate(360deg);
   }
 }
+
+.display-enter {
+  white-space: pre-line;
+}
+
+.my-div {
+  border : 1px solid blue;
+  text-align : center;
+  padding : 100px 0;
+}
+
+.footer {
+  position: relative;
+  bottom:0px;
+  left: 0px;
+  width:100%;
+  height:150px; 
+  justify-content: center;
+  align-items: center;
+  display: flex;  
+  background-color:#9ac4e2;
+}
+
+.a{
+  margin-bottom: 10%;
+}
+
+.c{
+  color: #001838;
+}
+
+.middle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #001838;
+  width: 80%;
+  height: 80%;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+

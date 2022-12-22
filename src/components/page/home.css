@@ -1,0 +1,9 @@
+.img-size {
+    width: 50%; 
+    height: 100px; 
+    object-fit: cover;
+  }
+
+  .text-line {
+    white-space: pre-wrap;
+  }

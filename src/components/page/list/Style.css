@@ -1,0 +1,253 @@
+#wrap {
+    width: 100%;
+}
+.main-contents {
+    position: relative;
+    width: 100%;
+    height: 1200px;
+}
+.timeline {
+    font-size: 50px;
+    padding: 3rem;
+    color: #001838;
+    font-weight: 800;
+}
+.content {
+    font-size: 20px;
+    color: #001838;
+    font-weight: 500;
+}
+.bold {
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+.q {
+    font-size: 25px;
+    padding: 1rem;
+    color: #001838;
+    font-weight: 500;
+}
+.scroll__container{
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  z-index: 1;
+}
+#top{
+  font-weight: bold;
+  font-size: 15px;
+  padding :15px 10px;
+  background-color: #001838;
+  color:#fff;
+  border: 1px solid rgb(210, 204, 193);
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+#top:hover{
+  color: #a8c8e0;
+}
+.team-name-L{
+   text-align: right;
+   flex-direction: row;
+   float: right;
+   width: 230px;
+   font-size: 20px;
+   color: #001838;
+   font-weight: 700;
+   padding-right: 3%;
+}
+
+.team-name-R{ 
+   text-align: left;
+   flex-direction: row;
+   float: left;
+   width: 230px;
+   font-size: 20px;
+   color: #001838;
+   font-weight: 700;
+   padding-left: 3%;
+}
+.date {
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 32px;
+    letter-spacing: .31px;
+    color: #6caddf;
+    text-transform: uppercase;
+}
+.card-date {
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: .31px;
+  color: #001838;
+  text-transform: uppercase;
+  padding-bottom: 3rem;
+}
+.m {
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+.n {
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+.o {
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+  }
+
+  .when {
+    font-weight: bold;
+    font-size: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: #a8c8e0;
+    flex-direction: column;
+    display: flex;
+    margin: 3%;
+  }
+  
+  .score {
+    font-weight: bold;
+    font-size: 30px;
+    width: 30px;
+    height: 35px;
+    color: white;
+    background-color: #001838;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+  }
+  .i{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .v {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .card-match{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-style:solid;
+    border-color:#001838;
+    border-width: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 3%;
+  }
+
+  .card-match-1 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-style:solid;
+    border-color:#001838;
+    border-width: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 3%;
+    margin-bottom: 10%;
+  }
+  .card-match-2 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-style:solid;
+    border-color:#001838;
+    border-width: 1px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 3%;
+    margin-top: 10%;
+  }
+  .card-match-3 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-style:solid;
+    border-color:#001838;
+    border-width: 1px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    padding: 3%;
+  }
+
+  .image {
+    background-color: #f4f7fa;
+    width: 100%;
+    height: 50%;
+  }
+  .emblem {
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .emblem-1 {
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .brand {
+    padding: 0%;
+    width: 100%;
+    height: 50px;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    justify-content: center;
+  }
+  .card-img {
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-news {
+    font-size: 20px;
+    padding: 1%;
+    width: 300px;
+    text-align: center;
+    color: #001838;
+    font-weight: 700;
+    padding-right: 3%; 
+  }
